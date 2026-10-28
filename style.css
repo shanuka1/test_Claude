@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0d0b1a;
+  color: #9a97b8;
+  font-family: "Courier New", monospace;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+canvas {
+  width: min(100%, 1200px);
+  aspect-ratio: 5 / 3;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+  background: #000;
+}
+
+.help {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+}
